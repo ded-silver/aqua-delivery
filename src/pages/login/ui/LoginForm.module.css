@@ -1,0 +1,94 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 400px;
+  padding: 24px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.titleMain {
+  color: #7367F0;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 33px;
+  flex-shrink: 0;
+  font-weight: bold;
+}
+
+.titleSecondary {
+  color: #5E5873;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 8px;
+  flex-shrink: 0;
+  font-weight: normal;
+}
+
+.titleTertiary {
+  color: #6E6B7B;
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 20px;
+  flex-shrink: 0;
+  font-weight: normal;
+}
+
+.formError {
+  margin-top: 12px;
+  color: #ff4d4f; /* Ant Design красный */
+  font-size: 13px;
+  text-align: center;
+}
+
+
+.inputsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.form {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.formItemLabel {
+  font-size: 12px;
+  color: #6E6B7B;
+  display: block;
+  text-align: left;
+}
+
+.formItem {
+  width: 342px;
+}
+
+.input {
+  height: 38px !important;
+  font-size: 14px !important;
+  color: #7367F0 !important;
+  text-align: left !important;
+}
+
+.button {
+  height: 38px;
+  font-size: 14px;
+  background-color: #7367F0;
+  border-color: #7367F0;
+}
