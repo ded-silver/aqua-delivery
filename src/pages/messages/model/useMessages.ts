@@ -28,9 +28,7 @@ export const useMessages = (id: number) => {
       setError(null);
 
       try {
-        console.log('Fetching messages for user id:', id);
         const response = await axiosInstance.get<ApiResponse>(`/chat/get-messages?id=${id}`);
-        console.log('Messages response:', response.data);
 
         if (response.data.success && Array.isArray(response.data.data)) {
           setMessages(response.data.data);
